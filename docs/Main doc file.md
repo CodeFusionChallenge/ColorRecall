@@ -2,7 +2,7 @@
 
 Jedná se o jednoduchou paměťovou hru, která je rozdělena do 2 fází. V 1. fázi se na krátký čas odhalí několik základních útvarů a několik lišících se od ostatních. Úkolem hráče je zapamatovat si útvary, které se liší. Ve 2. fázi se lišící se útvary přemění na útvary základní, a úkol hráče je naklikat všechny útvary, které se v 1. fázi lišily.
 
-**FE**: React, TypeScript, CSS
+**FE**: React, TypeScript, CSS  
 **BE**: Express, MongoDB?
 
 ### Features
