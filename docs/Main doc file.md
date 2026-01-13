@@ -7,14 +7,12 @@ Aplikace implementuje paměťovou hru založenou na zapamatování pozic objekt�
 Hra probíhá na herním poli tvořeném mřížkou čtverců.  
 Všechny čtverce jsou ve výchozím stavu otočeny do původní (zakryté) pozice.
 
----
 
 ## Průběh hry
 
 Hra probíhá v kolech.  
 Každé kolo se skládá ze dvou kroků: **kroku zobrazení** a **kroku výběru**.
 
----
 
 ### ▶ Krok zobrazení
 
@@ -24,7 +22,6 @@ Každé kolo se skládá ze dvou kroků: **kroku zobrazení** a **kroku výběru
 - Úkolem hráče je zapamatovat si **pozice těchto čtverců**.
 - Po uplynutí časového limitu se všechny čtverce vrátí do původního stavu.
 
----
 
 ### ▶ Krok výběru
 
@@ -32,7 +29,6 @@ Každé kolo se skládá ze dvou kroků: **kroku zobrazení** a **kroku výběru
 - Hráč kliknutím označuje čtverce, které se podle jeho paměti v kroku zobrazení otočily.
 - Cílem je označit **všechny a pouze ty čtverce**, které byly v kroku zobrazení zobrazeny.
 
----
 
 ## Vyhodnocení kola
 
@@ -41,7 +37,6 @@ Každé kolo se skládá ze dvou kroků: **kroku zobrazení** a **kroku výběru
   - a zároveň neoznačí žádný nesprávný
 - Při úspěšném dokončení kola hráč postupuje do dalšího levelu.
 
----
 
 ## Obtížnost
 
@@ -68,13 +63,20 @@ Konkrétní nastavení obtížnosti je závislé na herní konfiguraci.
 
 Jedná se o jednoduchou paměťovou hru, která je rozdělena do 2 fází. V 1. fázi se na krátký čas odhalí několik základních útvarů a několik lišících se od ostatních. Úkolem hráče je zapamatovat si útvary, které se liší. Ve 2. fázi se lišící se útvary přemění na útvary základní, a úkol hráče je naklikat všechny útvary, které se v 1. fázi lišily.
 
+---
+
+### Technologie 
+
 **FE**: React, TypeScript, CSS  
-**BE**: Express, MongoDB?
+**BE**: Node.js, Express, TypeScript, PostgreSQL
+
 
 ### Features
 
+- 🎯 Základní herní mechanika (rozpracováno)
 - ✅ Již přidané featury do projektu - zatím žádné
 - 🟨 Featury k přidání - zatím žádné
+
 
 ### Struktura
 
