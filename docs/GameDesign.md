@@ -1,6 +1,6 @@
 # Paměťová hra – dokumentace
 
-## Popis hry
+## Začátek hry
 
 Aplikace implementuje paměťovou hru založenou na zapamatování pozic objektů.
 
