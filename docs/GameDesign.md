@@ -1,8 +1,8 @@
-# Paměťová hra – dokumentace
-
-## Začátek hry
+# Paměťová hra – popis
 
 Aplikace implementuje paměťovou hru založenou na zapamatování pozic objektů.
+
+## Začátek hry
 
 Hra probíhá na herním poli tvořeném mřížkou čtverců.  
 Všechny čtverce jsou ve výchozím stavu otočeny do původní (zakryté) pozice.
