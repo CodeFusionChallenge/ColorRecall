@@ -9,3 +9,4 @@ Tohle jsou best practices ohledně tvorby názvů v projektu, a to konkrétně k
 3. proměnné: camelCase
 4. css selektory: kebab-case
 5. komponenty: PascalCase
+6. docs file: kebab-case
