@@ -28,8 +28,8 @@ chore: přidání profilové fotky
 
 ## Branches
 
-V projektu máme stabilně větev produkční a větev developerskou. Ostatní větve jsou featury:
+V projektu používáme tři typy větví: produkční, vývojovou a feature větve.
 
-- main - prorukční větev. Do mainu se merguje dev větev, pokud jsou všechny změny v ní dokončeny a po review
-- dev - developerská větev. Do devu se mergují všechny feature větve, které se zároveň labelují v gh issues jako waiting for review
-- feature - feature větev ponese název featury, na které se v ní pracuje. Když je featura dokončená, větev se merguje do devu a zároveň se maže.
+- **main** - Produkční větev. Do mainu se mergují změny z dev větve, pokud jsou všechny změny v ní dokončeny a po review.
+- **dev** - Developerská větev. Do devu se mergují všechny feature větve, které jsou dokončeny.
+- **feature** - Feature větev je určená pro práci na konkrétním úkolu nebo funkci a ponese název featury, na které se v ní pracuje. Když je featura dokončená, větev se merguje do devu a zároveň se maže.
