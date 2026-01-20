@@ -1,0 +1,23 @@
+{
+  "name": "color-recall-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:ts": "tsc -w",
+    "dev:run": "nodemon dist/server.js",
+    "dev": "npm run dev:ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.9",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.9.3"
+  }
+}
