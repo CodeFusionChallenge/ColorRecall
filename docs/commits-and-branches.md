@@ -6,7 +6,7 @@ type: description
 
 ## Commit types
 
-**✨ feat** – tvorba nové featury  
+**✨ feat** – tvorba nové featury
 **🔧 fix** – oprava bugu  
 **🧩 refactor** – úprava struktury kódu bez změny funkce nebo vzhledu  
 **🧹 chore** – soubory, assety a změny nesouvisející s kódem  
